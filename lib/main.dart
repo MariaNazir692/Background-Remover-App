@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:remove_bg/view/homescreen.dart';
+import 'package:remove_bg/utills/string.dart';
+import 'package:remove_bg/view/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Backgruond Remover',
+      title: appName,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-     home: const HomeScreen(),
+     home: const SplashScreen(),
     );
   }
 }

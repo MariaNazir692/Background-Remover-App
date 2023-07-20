@@ -18,9 +18,6 @@ class ApiUrl{
       print("Failed to fatch");
       return null;
     }
-
-
-
   }
 
 }
